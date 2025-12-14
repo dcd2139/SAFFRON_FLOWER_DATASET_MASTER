@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['flower', 'overlap']
+
+roboflow:
+  workspace: saffron-flower-detection
+  project: saffron_detection
+  version: 5
+  license: Private
+  url: https://app.roboflow.com/saffron-flower-detection/saffron_detection/5

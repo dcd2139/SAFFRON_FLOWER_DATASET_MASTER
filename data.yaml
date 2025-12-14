@@ -1,0 +1,13 @@
+train: /Users/dhananjaydeshpande/Desktop/Columbia EE DES/Digital Signal Processing/Project/saffron_flower_dataset-master/dataset/train/images
+val: /Users/dhananjaydeshpande/Desktop/Columbia EE DES/Digital Signal Processing/Project/saffron_flower_dataset-master/dataset/valid/images
+test: /Users/dhananjaydeshpande/Desktop/Columbia EE DES/Digital Signal Processing/Project/saffron_flower_dataset-master/dataset/test/images
+
+nc: 2
+names: ['flower', 'overlap']
+
+roboflow:
+  workspace: saffron-flower-detection
+  project: saffron_detection
+  version: 5
+  license: Private
+  url: https://app.roboflow.com/saffron-flower-detection/saffron_detection/5
