@@ -1,6 +1,6 @@
-train: /Users/dhananjaydeshpande/Desktop/Columbia EE DES/Digital Signal Processing/Project/saffron_flower_dataset-master/dataset/train/images
-val: /Users/dhananjaydeshpande/Desktop/Columbia EE DES/Digital Signal Processing/Project/saffron_flower_dataset-master/dataset/valid/images
-test: /Users/dhananjaydeshpande/Desktop/Columbia EE DES/Digital Signal Processing/Project/saffron_flower_dataset-master/dataset/test/images
+train: /home/dhananjay/SAFFRON_FLOWER_DATASET_MASTER/dataset/train/images
+val: /home/dhananjay/SAFFRON_FLOWER_DATASET_MASTER/dataset/valid/images
+test: /home/dhananjay/SAFFRON_FLOWER_DATASET_MASTER/dataset/test/images
 
 nc: 2
 names: ['flower', 'overlap']

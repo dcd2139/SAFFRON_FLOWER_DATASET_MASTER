@@ -4,12 +4,11 @@ from ultralytics import YOLO
 #model = YOLO("yolo11n.yaml")  # architecture only, no .pt file
 #model.train(data="data.yaml", epochs=3, imgsz=640, device='cpu')
 
-model = YOLO("/Users/dhananjaydeshpande/Desktop/Columbia EE DES/Digital Signal Processing/Project/saffron_flower_dataset-master/runs/detect/train4/weights/best.pt")
+model = YOLO("yolo11n.yaml")
 model.train(
     data="data.yaml",
-    epochs=3,
+    epochs=200,
     imgsz=640, 
-    device='cpu',
     hsv_h=0.03,
     hsv_s=0.6,
     hsv_v=0.5,
@@ -18,4 +17,12 @@ model.train(
     fliplr=0.5,
     scale=0.5,
     degrees=10.0,
+    translate=0.5,
+    shear=10.0,
+    perspective=0.001,
+    flipud=0.5,
+    bgr=0.5,
+    cutmix=0.5,
+    copy_paste=0.5,
+    erasing=0.5,
 )
